@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>La Morada</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hht0zqx.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hht0zqx.css">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+        <div class="dropdown-content">
+            <a href="malas.html">Malas</a>
+            <a href="detras de un gran hombre.html">Detrás de un gran hombre...</a>
+            <a href="rompiendo el molde.html">Rompiendo el molde</a>
+            <a href="de la pluma de.html">De la pluma de...</a>
+            <a href="de la vista nace el amor.html">De la vista nace el amor</a>
+            <a href="playlist.html">El soundtrack de nuestra vida</a>
+            <a href="antes de irte.html">¡Antes de irte!</a>
+        </div>
+    </div> 
+    <a href="index.html">LA MORADA</a>
+    <div class="navbar-right"> 
+        <button class="btn success"onclick="redirigir()">Subscribirse</button>
+    </div>
+</div>
+
+<!-- Image Carousel -->
+<div class="carousel">
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <div class="carousel-images">
+        <img class="carousel-image" src="flappers head.jpg" alt="Flappers">
+        <img class="carousel-image" src="hilma klint.jpg" alt="Hilma Klint">
+        <img class="carousel-image" src="Chappel y celia.jpg" alt="Chappel Roan y Celia Cruz">
+    </div>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    
+    <div class="carousel-indicators">
+        <span class="indicator" onclick="currentSlide(0)"></span>
+        <span class="indicator" onclick="currentSlide(1)"></span>
+        <span class="indicator" onclick="currentSlide(2)"></span>
+    </div>
+</div>
+
+
+
+<div class="habilidades"><h2> LO MÁS NUEVO </h2></div>    
+<div class="card-container" data-aos="fade-up">
+    <div class="card">
+        <img src="card1.jpg">
+        <div class="card-content">
+            <h3>La primera moda feminista y el inicio de una revolución</h3>
+            <p>En Europa y Estados Unidos, finalmente la mujer obtiene el derecho a votar, 
+                se termina la Primera Guerra Mundial y el jazz hace su aparición en los 
+                sótanos de Nueva York...</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="card2.jpg">
+        <div class="card-content">
+            <h3>Abriendo Caminos: Chappel Roan <br>y Celia Cruz</h3>
+            <p>En el vibrante panorama musical actual, Chappell Roan se destaca como una
+                figura crucial que no solo redefine el pop, sino que también abraza y 
+                celebra abiertamente su identidad queer...
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="card3.jpg">
+        <div class="card-content">
+            <h3>De traductora a traidora: Malinalli</h3>
+            <p>La Malinche ha sido una figura simbólica y emblemática desde el siglo XVI 
+                hasta hoy. Su nombre ha sido objeto de críticas por varios escritores 
+                como Octavio Paz...</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="card4.jpg">
+        <div class="card-content">
+            <h3>Virginia Woolf y la habitación propia</h3>
+            <p>Con tan solo 9 años, Virginia Wolf redacta sus primeros artículos
+                 para el periódico que ha creado en 1891 con su hermana mayor, 
+                 Vanessa...</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="card5.jpg">
+        <div class="card-content">
+            <h3>Mileva Maric: ¿La madre de la teoría de la relatividad?</h3>
+            <p>Un frío 19 de diciembre de 1875, Mileva Marić nacía en la ciudad 
+                de Titel, en Serbia. Hija de Marija Ruzić y Milos Maric fue la 
+                tercera y única niña...</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="card6.jpg">
+        <div class="card-content">
+            <h3>Hilma af Klint: Pionera del arte abstracto </h3>
+            <p>En 1935, el pintor ruso Vasili Kandinsky le escribió una carta 
+                a su galerista en Nueva York en la que se proclamaba...</p>
+        </div>
+    </div>
+</div>
+
+<section>      
+    <div class="habilidades"><h2> EDICIONES PASADAS </h2></div>           
+    <div class="contenedor">
+        <div class="flip-card" data-aos="fade-up">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="imagen" src="flappers.jpg" alt="laMorada abril">
+                </div>
+                <div class="flip-card-back">
+                    <h3>LA MORADA<br>Febrero</h3>
+                    <h6>Flappers: La primera moda feminista y el inicio de una revolución </h6>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card" data-aos="fade-up">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="imagen" src="Chappel_Roan.jpg" alt="laMorada mayo">
+                </div>
+                <div class="flip-card-back">
+                    <h3>LA MORADA<br>Marzo</h3>
+                    <h6>Chappel Roan y Celia Cruz: Abriendo caminos</h6>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card" data-aos="fade-up">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="imagen" src="virginia.jpg" alt="laMorada junio">
+                </div>
+                <div class="flip-card-back">
+                    <h3>LA MORADA<br> Abril</h3>
+                    <h6>Virginia Woolf: la importancia de una habitación propia</h6>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card" data-aos="fade-up">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="imagen" src="vw.jpg" alt="laMorada julio">
+                </div>
+                <div class="flip-card-back">
+                    <h3>LA MORADA<br>Mayo</h3>
+                    <h6>Hilma af Klint: la pionera del arte abstracto</h6>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card" data-aos="fade-up">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="imagen" src="malinalli.jpg" alt="laMorada agosto">
+                </div>
+                <div class="flip-card-back">
+                    <h3>LA MORADA<br>Junio</h3>
+                    <h6>Malinalli: de traductora a traidora</h6>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card" data-aos="fade-up">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="imagen" src="Mileva_Marić final.jpg" alt="laMorada septiembre">
+                </div>
+                <div class="flip-card-back">
+                    <h3>LA MORADA<br>Julio</h3>
+                    <h6>Mileva Maric:¿La madre de la teoria de la relatividad?</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  
+
+<footer class="footer2">
+    <div class="conten">
+        <div class="col1">
+            <a href="la morada web prueba.html" class="brand">LA MORADA</a>
+            <ul class="media-icons">
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://x.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+        </div>
+        <div class="col2">
+            <ul class="menu">
+                <li><a href="#">Sobre Nosotras</a></li>
+                <li><a href="#">Subscripción</a></li>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="cal3">
+            <h5>¡Subscribete a la revista!</h5>
+            <form>
+                <div class="input-wrap">
+                    <input type="email" placeholder="ejemplo@gmail.com" />
+                    <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
